@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ciel Studioは、スマートフォン向けの小さなゲームを企画・開発するインディーゲームスタジオです。">
+  <meta name="theme-color" content="#e3f5f1">
+  <title>Ciel Studio | Small games, Big smiles.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Ciel Studio トップへ">CIEL <span>STUDIO</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="メニューを開く">
+      <span></span><span></span>
+    </button>
+    <nav class="site-menu" id="site-menu" aria-label="ページ内メニュー" hidden>
+      <a href="#about"><span>01</span> ABOUT</a>
+      <a href="#games"><span>02</span> GAMES</a>
+      <a href="#links"><span>03</span> LINKS</a>
+      <a href="#privacy"><span>04</span> PRIVACY</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-orbit orbit-one"></div>
+      <div class="hero-orbit orbit-two"></div>
+      <div class="hero-content">
+        <p class="eyebrow">INDEPENDENT GAME STUDIO</p>
+        <h1>Small games,<br><em>Big smiles.</em></h1>
+        <p class="hero-copy">小さな遊びに、ちょっとした楽しさを。</p>
+        <a class="scroll-link" href="#about">SCROLL TO EXPLORE <span>↓</span></a>
+      </div>
+      <div class="hero-sticker" aria-hidden="true"><span>PLAY</span><b>!</b></div>
+      <div class="hero-bottom">CURIOSITY&nbsp; · &nbsp;CREATIVITY&nbsp; · &nbsp;PLAY</div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <p class="section-number">01 / ABOUT</p>
+        <h2>こんにちは、<br><span>Ciel Studio</span>です。</h2>
+      </div>
+      <div class="section-body">
+        <p class="lead">遊び心を大切に、スマートフォン向けのゲームを企画・開発しています。</p>
+        <p>日常のちょっとした時間に楽しめる、シンプルで心地よいゲーム体験を目指しています。</p>
+      </div>
+      <span class="decor-dot dot-about" aria-hidden="true"></span>
+    </section>
+
+    <section class="section games-section" id="games">
+      <div class="section-heading">
+        <p class="section-number">02 / GAMES</p>
+        <h2>Our <span>Games</span></h2>
+        <p class="section-intro">Ciel Studioのゲームを紹介します。</p>
+      </div>
+      <article class="game-card">
+        <div class="game-art" aria-label="ゲーム画面イメージ">
+          <div class="art-label">A LITTLE<br>ARCADE FUN</div>
+          <div class="arcade-board">
+            <span class="ball ball-a"></span><span class="ball ball-b"></span>
+            <span class="ball ball-c"></span><span class="ball ball-d"></span>
+            <div class="board-shelf"></div>
+            <div class="board-base"></div>
+          </div>
+          <span class="art-caption">GAME PROJECT No. 01</span>
+        </div>
+        <div class="game-info">
+          <p class="game-status">FIRST PROJECT</p>
+          <h3>ゲームタイトル</h3>
+          <p>オブジェクトを落として、押し出して、ハイスコアを目指すスマートフォン向けカジュアルゲームです。</p>
+          <span class="coming-soon">COMING SOON</span>
+        </div>
+      </article>
+      <p class="small-note">※ ゲーム画面・タイトル・ストアへのリンクは、公開に合わせて更新します。</p>
+    </section>
+
+    <section class="section links-section" id="links">
+      <div class="section-heading">
+        <p class="section-number">03 / LINKS</p>
+        <h2>Stay <span>Connected</span></h2>
+      </div>
+      <p class="lead">最新情報や動画は、こちらからお知らせしていく予定です。</p>
+      <div class="social-placeholder">
+        <span class="social-symbol">＋</span>
+        <div><strong>SOCIAL LINKS</strong><small>X・YouTubeなどのリンクを今後追加予定です。</small></div>
+      </div>
+    </section>
+
+    <section class="section privacy-section" id="privacy">
+      <div class="section-heading">
+        <p class="section-number">04 / PRIVACY</p>
+        <h2>Privacy <span>Policy</span></h2>
+      </div>
+      <p>プライバシーポリシーは、アプリの公開に合わせて掲載予定です。</p>
+      <span class="coming-soon">PREPARING</span>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#top">CIEL <span>STUDIO</span></a>
+    <p>Small games, Big smiles.</p>
+    <small>© <span id="year"></span> Ciel Studio</small>
+  </footer>
+</body>
+</html>
