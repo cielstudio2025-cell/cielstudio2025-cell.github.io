@@ -113,6 +113,18 @@ a { color: inherit; text-decoration: none; }
 .footer-brand { display: inline-block; }
 .site-footer p { margin: 8px 0 15px; color: #b9d5cf; font-size: .82rem; }
 .site-footer small { color: #9abbb4; font-size: .68rem; }
+.game-art {
+  min-height: auto;
+  display: block;
+  background: none;
+  overflow: hidden;
+}
+.game-art img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
 @media (max-width: 700px) {
   .site-header { height: 68px; }
   .hero { min-height: 620px; height: 88svh; }
