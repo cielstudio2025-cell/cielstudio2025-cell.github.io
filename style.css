@@ -169,7 +169,7 @@ a { color: inherit; text-decoration: none; }
 
 /* CONTACT */
 .contact-content {
-  max-width: 680px;
+  max-width: 500px;
   margin: 32px auto 0;
 }
 
@@ -201,7 +201,7 @@ a { color: inherit; text-decoration: none; }
 .contact-form iframe {
   display: block;
   width: 100%;
-  height: 680px;
+  height: 500px;
   border: none;
   border-radius: 10px;
   background: #fff;
